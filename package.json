@@ -1,0 +1,26 @@
+{
+  "name": "express_template",
+  "version": "1.0.0",
+  "description": "Simple Express.js template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "SErgaros",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.2",
+    "express-favicon": "^2.0.0",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "serve-static": "^1.13.1"
+  }
+}
